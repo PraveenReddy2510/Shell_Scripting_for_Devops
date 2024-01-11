@@ -48,7 +48,7 @@
 ###### ➤ If we use ```$``` sign with variable within a single quotes then the variable value will not be printed.(refer the line 9 from the above script)
 ###### ➤ If the ```echo``` command has the text to be printed with a single quote then its better to use the whole text with in the double quotes, (refer the line 7 from the above script)
 ![image](https://github.com/PraveenReddy2510/Shell_Scripting_for_Devops/assets/127923130/49e86771-fa03-42e6-952d-16aad295d286)
-
+###### In the above picture the error is occurred because of single quotes issue.
 
 
 
