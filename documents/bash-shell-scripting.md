@@ -15,6 +15,7 @@
 ###### ➤ The file extensions should always be a .sh, it can anything like apple, script.txt, README.md etc...
 ###### ➤ The file should have the executable permission like ```-rwxrwxr-x```.
 ###### ➤ Since the file extension can be anything, to alert the interpretor that this is a bash script file we use ```#!/bin/bash``` (called as ```shebang```) as the first line of the scripting file
+###### ➤ So it's mandatorily advised to start the first line of script with ```#!/bin/bash```
 
 #### Breaking down the ```#!/bin/bash``` (```shebang```)
 ##### ```#!``` ➠ tells the shell what interpreter to use while executing the script. And this is applied only for the first line of the file as in other line the # is considered as ```comment```
