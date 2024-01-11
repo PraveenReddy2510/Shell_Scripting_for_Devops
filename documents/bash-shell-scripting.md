@@ -21,8 +21,11 @@
 
 # Example-1
 ## To print the ```Hello World!``` by using BASH script.
-[example1.sh](https://github.com/PraveenReddy2510/Shell_Scripting_for_Devops/blob/main/example-scripts/example1.sh)
+[example1.sh - Script](https://github.com/PraveenReddy2510/Shell_Scripting_for_Devops/blob/main/example-scripts/example1.sh)
+    #!/bin/bash
 
+    echo "Hello World!"
+![image](https://github.com/PraveenReddy2510/Shell_Scripting_for_Devops/assets/127923130/e37908ce-d9ab-49db-a4f6-0db73cefdb43)
 
 
 
