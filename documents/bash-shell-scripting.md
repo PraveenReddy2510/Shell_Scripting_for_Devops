@@ -28,6 +28,32 @@
     echo "Hello World!"
 ![image](https://github.com/PraveenReddy2510/Shell_Scripting_for_Devops/assets/127923130/e37908ce-d9ab-49db-a4f6-0db73cefdb43)
 
+# Example-
+## To store variable and use them in the ```echo``` command.
+[example2.sh - Script](https://github.com/PraveenReddy2510/Shell_Scripting_for_Devops/blob/main/example-scripts/example2.sh)
+#####    
+    #!/bin/bash
+
+    myname="Praveen"
+    profession="DevOps Engineer"
+
+    echo "Hello, My name is $myname."
+    echo "And I'm a $profession."
+
+    echo 'Hello, My name is $myname.'
+    echo 'And I'm a $profession.'
+
+    echo "Hello, My name is $myname."
+    echo 'And I\'m a $profession.'
+###### 📒 Note: 
+###### ➤ Here ```myname``` and ```profession``` are variables (refer lines 3 & 4 from the above script)
+###### ➤ To print the variable in a ```echo``` command ```$``` sign should be used with a variable name within a double quotes. (refer the lines 6 & 7 from the above script)
+###### ➤ If we use ```$``` sign with variable within a single quotes then the variable value will not be printed.(refer the line 9 from the above script)
+###### ➤ If the ```echo``` command has the text to be printed with a single quote then its better to use the whole text with in the double quotes, (refer the line 7 from the above script)
+###### ➤ If the ```echo``` command has the text to be printed with a single quote then its better to use the ```\``` before the single quote to print whole text. (refer the line 13 from the above script)
+
+![image](https://github.com/PraveenReddy2510/Shell_Scripting_for_Devops/assets/127923130/ba59e1ce-7a6e-44ed-8d7a-0c0f72cd1771)
+
 
 
 
