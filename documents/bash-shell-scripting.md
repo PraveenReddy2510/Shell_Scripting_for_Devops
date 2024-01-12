@@ -33,15 +33,17 @@
 [example2.sh](https://github.com/PraveenReddy2510/Shell_Scripting_for_Devops/blob/main/example-scripts/example2.sh) - Script
 #####    
     #!/bin/bash
-
+    
     myname="Praveen"
     profession="DevOps Engineer"
-
+    
     echo "Hello, My name is $myname."
     echo "And I'm a $profession."
-
-    echo 'Hello, My name is $myname.'
+    
+    echo 'Hello, My name is $myname.' 
+    # here the string within single quotes will be printed as it is because variable name is not mentioned between double quotes.
     echo 'And I'm a $profession.'
+    # here this throws a error, so to overcome this scenario use " echo 'And I\'m a $profession.'" to run successfully.
 ###### 📒 Note: 
 ###### ➤ Here ```myname``` and ```profession``` are variables (refer lines 3 & 4 from the above script)
 ###### ➤ To print the variable in a ```echo``` command ```$``` sign should be used with a variable name within a double quotes. (refer the lines 6 & 7 from the above script)
@@ -85,4 +87,11 @@
     echo $HOME
 ![image](https://github.com/PraveenReddy2510/Shell_Scripting_for_Devops/assets/127923130/268c4ddb-37b0-4ff1-a207-00cdeac07df7)
 
+# Example-5
+## To print the mathmatical operations
+###### 👉 TIP: Since ```*``` has some usage in the linux, so multiplication cannot be performed directly
+[example4.sh](https://github.com/PraveenReddy2510/Shell_Scripting_for_Devops/blob/main/example-scripts/example4.sh) - Script
+#####    
+    #!/bin/bash
 
+![image](https://github.com/PraveenReddy2510/Shell_Scripting_for_Devops/assets/127923130/fc593516-ed03-4bf1-9bac-974a272268dd)
