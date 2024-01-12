@@ -21,7 +21,7 @@
 
 # Example-1
 ## To print the ```Hello World!``` by using BASH script.
-[example1.sh - Script](https://github.com/PraveenReddy2510/Shell_Scripting_for_Devops/blob/main/example-scripts/example1.sh)
+[example1.sh](https://github.com/PraveenReddy2510/Shell_Scripting_for_Devops/blob/main/example-scripts/example1.sh) - Script
 #####    
     #!/bin/bash
 
@@ -30,7 +30,7 @@
 
 # Example-2
 ## To store variable and use them in the ```echo``` command.
-[example2.sh - Script](https://github.com/PraveenReddy2510/Shell_Scripting_for_Devops/blob/main/example-scripts/example2.sh)
+[example2.sh](https://github.com/PraveenReddy2510/Shell_Scripting_for_Devops/blob/main/example-scripts/example2.sh) - Script
 #####    
     #!/bin/bash
 
@@ -52,7 +52,7 @@
 
 # Example-3
 ## To store the output of any command in the linux (like ```ls```, ```ls -l```, ```pwd```, ```date```, ```history``` etc...)
-[example3.sh - Script](https://github.com/PraveenReddy2510/Shell_Scripting_for_Devops/blob/main/example-scripts/example3.sh)
+[example3.sh](https://github.com/PraveenReddy2510/Shell_Scripting_for_Devops/blob/main/example-scripts/example3.sh) - Script
 #####    
     #!/bin/bash
     
@@ -70,7 +70,7 @@
 # Example-4
 ## To print the pre-defined/evironmental variables that are available in linux ubunut (to checkout the list of environmental variables, use ```env``` command)
 ###### 👉 TIP: So as below mentioned the all pre-defined/evironmental variables will be in ```UPPER_CASE``` so its recommended to use ```LOWER_CASE``` for user defined variables that you create.
-[example4.sh - Script](https://github.com/PraveenReddy2510/Shell_Scripting_for_Devops/blob/main/example-scripts/example4.sh)
+[example4.sh](https://github.com/PraveenReddy2510/Shell_Scripting_for_Devops/blob/main/example-scripts/example4.sh) - Script
 #####    
     #!/bin/bash
     
