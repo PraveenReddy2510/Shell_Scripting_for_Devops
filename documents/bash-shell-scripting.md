@@ -70,7 +70,7 @@
 ![image](https://github.com/PraveenReddy2510/Shell_Scripting_for_Devops/assets/127923130/853454f6-2e5d-46cf-9636-f36b935545bc)
 
 # Example-4
-## To print the pre-defined/evironmental variables that are available in linux ubunut (to checkout the list of environmental variables, use ```env``` command)
+## To print the pre-defined/evironmental variables that are available in linux ubuntu (to checkout the list of environmental variables, use ```env``` command)
 ###### 👉 TIP: So as below mentioned the all pre-defined/evironmental variables will be in ```UPPER_CASE``` so its recommended to use ```LOWER_CASE``` for user defined variables that you create.
 [example4.sh](https://github.com/PraveenReddy2510/Shell_Scripting_for_Devops/blob/main/example-scripts/example4.sh) - Script
 #####    
@@ -94,4 +94,19 @@
 #####    
     #!/bin/bash
 
+    mynum=300
+    mynum1=10
+    
+    # to add two numbers
+    expr 10 + 3
+    # to substract two numbers
+    expr 10 - 3
+    # to perform divsion between two numbers
+    expr 10 / 4
+    # to multiply two numbers
+    expr 3 \* 10
+    # to add two numbers with variables
+    expr $mynum + 10
+    # to divide two numbers with variables
+    expr $mynum / $mynum1
 ![image](https://github.com/PraveenReddy2510/Shell_Scripting_for_Devops/assets/127923130/fc593516-ed03-4bf1-9bac-974a272268dd)
