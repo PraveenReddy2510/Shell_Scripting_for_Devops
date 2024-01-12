@@ -113,7 +113,7 @@
 
 # Example-6
 ## ```if``` and ```else``` statements with ```-eq``` (equals to condition)
-###### 👉 TIP: Since ```*``` has some usage in the linux, so multiplication cannot be performed directly
+
 [example6.sh](https://github.com/PraveenReddy2510/Shell_Scripting_for_Devops/blob/main/example-scripts/example6.sh) - Script
 #####    
     #!/bin/bash
@@ -131,7 +131,7 @@
 
 # Example-7
 ## ```if``` and ```else``` statements with ```-ne``` (not equals to condition)
-###### 👉 TIP: Since ```*``` has some usage in the linux, so multiplication cannot be performed directly
+
 [example7.sh](https://github.com/PraveenReddy2510/Shell_Scripting_for_Devops/blob/main/example-scripts/example7.sh) - Script
 #####    
     #!/bin/bash
@@ -149,7 +149,7 @@
 
 # Example-8
 ## ```if``` and ```else``` statements with ```-gt``` (greater than condition)
-###### 👉 TIP: Since ```*``` has some usage in the linux, so multiplication cannot be performed directly
+
 [example8.sh](https://github.com/PraveenReddy2510/Shell_Scripting_for_Devops/blob/main/example-scripts/example8.sh) - Script
 #####    
     #!/bin/bash
@@ -167,7 +167,7 @@
 
 # Example-9
 ## ```if``` and ```else``` statements with ```-lt``` (less than condition)
-###### 👉 TIP: Since ```*``` has some usage in the linux, so multiplication cannot be performed directly
+
 [example9.sh](https://github.com/PraveenReddy2510/Shell_Scripting_for_Devops/blob/main/example-scripts/example9.sh) - Script
 #####    
     #!/bin/bash
