@@ -28,8 +28,44 @@
     echo "Hello World!"
 ![image](https://github.com/PraveenReddy2510/Shell_Scripting_for_Devops/assets/127923130/e37908ce-d9ab-49db-a4f6-0db73cefdb43)
 
+# Example-2
+## To store variable and use them in the ```echo``` command.
+[example2.sh - Script](https://github.com/PraveenReddy2510/Shell_Scripting_for_Devops/blob/main/example-scripts/example2.sh)
+#####    
+    #!/bin/bash
 
+    myname="Praveen"
+    profession="DevOps Engineer"
 
+    echo "Hello, My name is $myname."
+    echo "And I'm a $profession."
+
+    echo 'Hello, My name is $myname.'
+    echo 'And I'm a $profession.'
+###### 📒 Note: 
+###### ➤ Here ```myname``` and ```profession``` are variables (refer lines 3 & 4 from the above script)
+###### ➤ To print the variable in a ```echo``` command ```$``` sign should be used with a variable name within a double quotes. (refer the lines 6 & 7 from the above script)
+###### ➤ If we use ```$``` sign with variable within a single quotes then the variable value will not be printed.(refer the line 9 from the above script)
+###### ➤ If the ```echo``` command has the text to be printed with a single quote then its better to use the whole text with in the double quotes, (refer the line 7 from the above script)
+![image](https://github.com/PraveenReddy2510/Shell_Scripting_for_Devops/assets/127923130/49e86771-fa03-42e6-952d-16aad295d286)
+###### In the above picture the error is occurred because of single quotes issue.
+
+# Example-3
+## To store the output of any command in the linux (like ```ls```, ```ls -l```, ```pwd```,```history``` etc...)
+[example3.sh - Script](https://github.com/PraveenReddy2510/Shell_Scripting_for_Devops/blob/main/example-scripts/example3.sh)
+#####    
+    #!/bin/bash
+    
+    store=$(ls)
+    echo $store
+    
+    store2=$(ls -l)
+    echo $store2
+    
+    store3=$(pwd)
+    echo $store3
+
+![image](https://github.com/PraveenReddy2510/Shell_Scripting_for_Devops/assets/127923130/853454f6-2e5d-46cf-9636-f36b935545bc)
 
 
 
