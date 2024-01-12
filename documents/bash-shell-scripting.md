@@ -90,7 +90,7 @@
 # Example-5
 ## To print the mathmatical operations
 ###### 👉 TIP: Since ```*``` has some usage in the linux, so multiplication cannot be performed directly
-[example4.sh](https://github.com/PraveenReddy2510/Shell_Scripting_for_Devops/blob/main/example-scripts/example4.sh) - Script
+[example5.sh](https://github.com/PraveenReddy2510/Shell_Scripting_for_Devops/blob/main/example-scripts/example5.sh) - Script
 #####    
     #!/bin/bash
 
@@ -110,3 +110,82 @@
     # to divide two numbers with variables
     expr $mynum / $mynum1
 ![image](https://github.com/PraveenReddy2510/Shell_Scripting_for_Devops/assets/127923130/fc593516-ed03-4bf1-9bac-974a272268dd)
+
+# Example-6
+## ```if``` and ```else``` statements with ```-eq``` (equals to condition)
+###### 👉 TIP: Since ```*``` has some usage in the linux, so multiplication cannot be performed directly
+[example6.sh](https://github.com/PraveenReddy2510/Shell_Scripting_for_Devops/blob/main/example-scripts/example6.sh) - Script
+#####    
+    #!/bin/bash
+    
+    mynum=100
+
+    if [ $mynum -eq 100 ]
+    then
+            echo "The condition is executed with 'if' statement only"
+    else
+            echo "The condition is executed with 'else' statement only"
+    fi
+
+![image](https://github.com/PraveenReddy2510/Shell_Scripting_for_Devops/assets/127923130/9ffddcf4-3894-4242-ba12-8e083a9210bb)
+
+# Example-7
+## ```if``` and ```else``` statements with ```-ne``` (not equals to condition)
+###### 👉 TIP: Since ```*``` has some usage in the linux, so multiplication cannot be performed directly
+[example7.sh](https://github.com/PraveenReddy2510/Shell_Scripting_for_Devops/blob/main/example-scripts/example7.sh) - Script
+#####    
+    #!/bin/bash
+    
+    mynum=100
+
+    if [ $mynum -ne 100 ]
+    then
+            echo "The condition is executed with 'if' statement only"
+    else
+            echo "The condition is executed with 'else' statement only"
+    fi
+![image](https://github.com/PraveenReddy2510/Shell_Scripting_for_Devops/assets/127923130/f76ec1b1-0cbd-4e36-8cdc-4f6e9f80f384)
+
+
+# Example-8
+## ```if``` and ```else``` statements with ```-gt``` (greater than condition)
+###### 👉 TIP: Since ```*``` has some usage in the linux, so multiplication cannot be performed directly
+[example8.sh](https://github.com/PraveenReddy2510/Shell_Scripting_for_Devops/blob/main/example-scripts/example8.sh) - Script
+#####    
+    #!/bin/bash
+    
+    mynum=100
+
+    if [ $mynum -gt 101 ]
+    then
+            echo "The condition is executed with 'if' statement only"
+    else
+            echo "The condition is executed with 'else' statement only"
+    fi
+![image](https://github.com/PraveenReddy2510/Shell_Scripting_for_Devops/assets/127923130/1dbcd00f-fb84-405a-9f74-54409f5ad765)
+
+
+# Example-9
+## ```if``` and ```else``` statements with ```-lt``` (less than condition)
+###### 👉 TIP: Since ```*``` has some usage in the linux, so multiplication cannot be performed directly
+[example9.sh](https://github.com/PraveenReddy2510/Shell_Scripting_for_Devops/blob/main/example-scripts/example9.sh) - Script
+#####    
+    #!/bin/bash
+    
+    mynum=100
+
+    if [ $mynum -lt 101 ]
+    then
+            echo "The condition is executed with 'if' statement only"
+    else
+            echo "The condition is executed with 'else' statement only"
+    fi
+
+![image](https://github.com/PraveenReddy2510/Shell_Scripting_for_Devops/assets/127923130/d019847e-3721-4073-8ad1-6da9bc98277e)
+
+
+
+
+
+
+
