@@ -51,7 +51,7 @@
 ###### In the above picture the error is occurred because of single quotes issue.
 
 # Example-3
-## To store the output of any command in the linux (like ```ls```, ```ls -l```, ```pwd```,```history``` etc...)
+## To store the output of any command in the linux (like ```ls```, ```ls -l```, ```pwd```, ```date```, ```history``` etc...)
 [example3.sh - Script](https://github.com/PraveenReddy2510/Shell_Scripting_for_Devops/blob/main/example-scripts/example3.sh)
 #####    
     #!/bin/bash
@@ -67,6 +67,22 @@
 
 ![image](https://github.com/PraveenReddy2510/Shell_Scripting_for_Devops/assets/127923130/853454f6-2e5d-46cf-9636-f36b935545bc)
 
-
+# Example-4
+## To print the pre-defined/evironmental variables that are available in linux ubunut (to checkout the list of environmental variables, use ```env``` command)
+###### 👉 TIP: So as below mentioned the all pre-defined/evironmental variables will be in ```UPPER_CASE``` so its recommended to use ```LOWER_CASE``` for user defined variables that you create.
+[example4.sh - Script](https://github.com/PraveenReddy2510/Shell_Scripting_for_Devops/blob/main/example-scripts/example4.sh)
+#####    
+    #!/bin/bash
+    
+    # some of the pre-defined variable in the linux ubuntu 
+    
+    echo $USER
+    echo $SHELL
+    echo $PWD
+    echo $LOGNAME
+    echo $XDG_SESSION_TYPE
+    echo $MOTD_SHOWN
+    echo $HOME
+![image](https://github.com/PraveenReddy2510/Shell_Scripting_for_Devops/assets/127923130/268c4ddb-37b0-4ff1-a207-00cdeac07df7)
 
 
